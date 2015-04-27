@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.msi.fragmentsession.SingleUser">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:orientation= "vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:id="@+id/NameData"
+        android:text="@string/Name"
+        android:paddingLeft="10dp"
+        android:layout_weight = "2"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/Address"
+        android:id="@+id/AddressData"
+        android:paddingLeft="10dp"
+        android:layout_weight = "2"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/PhoneNumber"
+        android:id="@+id/PhoneData"
+        android:paddingLeft="10dp"
+        android:layout_weight = "2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "5"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="Edit"
+        android:id="@+id/Exit"
+        android:paddingLeft="30dp"
+        android:layout_gravity="center_horizontal|bottom" />
+</LinearLayout>
+</FrameLayout>

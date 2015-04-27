@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fragment Session</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank frag</string>
+    <string name="hello_blank_fragment2">Hello blank frag2</string>
+    <string name="Name">Name</string>
+    <string name="Address">Address</string>
+    <string name="PhoneNumber">Phn Num</string>
+</resources>
